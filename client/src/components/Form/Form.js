@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./Form.module.css";
 import axios from "axios";
 
-const serverBase = https://url-shortner-08ya.onrender.com;
+const serverBase = "https://url-shortner-08ya.onrender.com";
 
 function is_url(str) {
   let exp = new RegExp(
